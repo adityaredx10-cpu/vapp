@@ -6,7 +6,7 @@ import numpy as np
 import json
 
 # Load JSON dataset from file
-with open("data.json", "r") as f:
+with open("q-vercel-latency.json", "r") as f:
     DATA = json.load(f)
 
 # Input schema
