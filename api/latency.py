@@ -24,7 +24,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.post("/metrics")
+@app.post("/")
 async def get_metrics(req: MetricsRequest) -> Dict[str, Dict[str, float]]:
     result = {}
 
